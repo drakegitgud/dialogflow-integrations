@@ -2,13 +2,13 @@
  * TODO(developer):
  * Add your service key to the current folder.
  * Uncomment and fill in these variables.
- */
-// const projectId = 'my-project';
-// const locationId = 'global';
-// const agentId = 'my-agent';
-// const languageCode = 'en'
-// const TELEGRAM_TOKEN='1234567898:ABCdfghTtaD8dfghdfgh45sdf65467M';
-// const SERVER_URL='https://example.com';
+
+const projectId = 'my-project';
+const locationId = 'global';
+const agentId = 'my-agent';
+const languageCode = 'en'
+const TELEGRAM_TOKEN='7450250062:AAH4SQoU1JX9jk2TRMQMatKqmI3UTP53RQs';
+const SERVER_URL='https://example.com';
 
 const structProtoToJson =
     require('../../botlib/proto_to_json.js').structProtoToJson;
@@ -17,8 +17,8 @@ const express = require('express');
 const axios = require('axios');
 const bodyParser = require('body-parser');
 
-const API_URL = `https://api.telegram.org/bot${TELEGRAM_TOKEN}`;
-const URI = `/webhook/${TELEGRAM_TOKEN}`;
+const API_URL = `https://api.telegram.org/bot${7450250062:AAH4SQoU1JX9jk2TRMQMatKqmI3UTP53RQs}`;
+const URI = `/webhook/${7450250062:AAH4SQoU1JX9jk2TRMQMatKqmI3UTP53RQs}`;
 const WEBHOOK = SERVER_URL + URI;
 
 const app = express();
